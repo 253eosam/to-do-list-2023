@@ -8,6 +8,7 @@
 
 ## 🛠️ 기술스택
 
+- Node.js v18.16.0
 - Bundling tool : vite
 - Package manage : pnpm
 - Language : TypeScript
