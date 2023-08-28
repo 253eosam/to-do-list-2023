@@ -12,5 +12,5 @@
 - Bundling tool : vite
 - Package manage : pnpm
 - Language : TypeScript
-- Plugins : prettier, eslint
+- Plugins : ESLint
 - Framework : Vue.js (v3)
