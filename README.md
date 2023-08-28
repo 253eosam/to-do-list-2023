@@ -14,3 +14,4 @@
 - Language : TypeScript
 - Plugins : ESLint
 - Framework : Vue.js (v3)
+- UI Framework : Flowbite
