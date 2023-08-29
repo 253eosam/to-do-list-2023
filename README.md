@@ -26,12 +26,13 @@ $ pnpm run dev
 
 ## 🛠️ 기술스택
 
-|    사용스택    |           기술명            |  버전   |
-| :------------: | :-------------------------: | :-----: |
-|    Runtime     |           Node.js           | 18.16.0 |
-| Bundling tool  |            vite             |         |
-| Package manage |            pnpm             |         |
-|    Language    |         TypeScript          |         |
-|    Plugins     |           ESLint            |         |
-|   Framework    |           Vue.js            |    3    |
-|  UI Framework  | Flowbite (lib: tailwindcss) |         |
+|     사용스택     |                                   기술명                                    |  버전   |
+| :--------------: | :-------------------------------------------------------------------------: | :-----: |
+|     Runtime      |                      [Node.js](https://nodejs.org/ko)                       | 18.16.0 |
+|  Bundling tool   |                                    vite                                     |         |
+|  Package manage  |                                    pnpm                                     |         |
+|     Language     |                                 TypeScript                                  |         |
+|     Plugins      |                                   ESLint                                    |         |
+|    Framework     |                                   Vue.js                                    |    3    |
+|   UI Framework   | [Flowbite](https://flowbite.com/) ([Tailwindcss](https://tailwindcss.com/)) |         |
+| State management |                      [Pinia](https://pinia.vuejs.org/)                      |         |

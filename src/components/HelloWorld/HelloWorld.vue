@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { Dropdown, ListGroup, ListGroupItem } from "flowbite-vue"
+import { useCounterStore } from "./store"
 
 defineProps<{ msg: string }>()
+
+const store = useCounterStore()
 </script>
 
 <template>
@@ -13,6 +16,10 @@ defineProps<{ msg: string }>()
       <list-group-item>Item #3</list-group-item>
     </list-group>
   </dropdown>
+  <div>
+    <button class="capitalize m-3 p-3 rounded-xl outline" @click="store.increment">increment</button>
+    <p class="text-lg text-center">{{  store.count  }}</p>
+  </div>
 </template>
 
 <style scoped>
