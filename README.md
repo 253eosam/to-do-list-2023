@@ -8,7 +8,7 @@
 
 > Require nodejs version 18.
 
-### Install 
+### Install
 
 ```bash
 $ pnpm i
@@ -26,12 +26,12 @@ $ pnpm run dev
 
 ## 🛠️ 기술스택
 
-| 사용 기술 | 기술명 | 버전 |
-| :---: | :---: | :---: |
-| Runtime | Node.js | 18.16.0 |
-| Bundling tool | vite | |
-| Package manage | pnpm | |
-| Language | TypeScript | |
-| Plugins | ESLint | |
-| Framework | Vue.js | 3 |
-| UI Framework | Flowbite (lib: tailwindcss) | |
+|    사용스택    |           기술명            |  버전   |
+| :------------: | :-------------------------: | :-----: |
+|    Runtime     |           Node.js           | 18.16.0 |
+| Bundling tool  |            vite             |         |
+| Package manage |            pnpm             |         |
+|    Language    |         TypeScript          |         |
+|    Plugins     |           ESLint            |         |
+|   Framework    |           Vue.js            |    3    |
+|  UI Framework  | Flowbite (lib: tailwindcss) |         |
