@@ -10,6 +10,14 @@
 
 ### Install
 
+Install [pnpm](https://pnpm.io/ko/installation)
+
+```bash
+$ npm i -g pnpm
+```
+
+Completed install.
+
 ```bash
 $ pnpm i
 ```
