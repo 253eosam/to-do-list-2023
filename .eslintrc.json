@@ -19,6 +19,7 @@
     ],
     "rules": {
         "semi": ["error", "never"],
-        "quotes": ["error", "double"]
+        "quotes": ["error", "double"],
+        "@typescript-eslint/no-explicit-any": "warn"
     }
 }
