@@ -8,7 +8,7 @@ import { getAuth } from "firebase/auth"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAoFtJyxVDQbn9RdP1v8ctujqVNgDD0n8s",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "to-do-list-2023-f2afd.firebaseapp.com",
   projectId: "to-do-list-2023-f2afd",
   storageBucket: "to-do-list-2023-f2afd.appspot.com",
@@ -19,8 +19,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-const auth = getAuth(app)
+getAuth(app)
 
-console.log("Hello world")
-console.log(app)
-console.log("[🚀 253eosam] |  file: firebase.ts:23 |  auth:", auth)
