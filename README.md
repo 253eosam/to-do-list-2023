@@ -45,3 +45,4 @@ $ pnpm run dev
 |   UI Framework   | [Flowbite](https://flowbite.com/) ([Tailwindcss](https://tailwindcss.com/)) |         |
 | State management |                      [Pinia](https://pinia.vuejs.org/)                      |         |
 |  앱 개발 플랫폼  |               [Firebase](https://firebase.google.com/?hl=ko/)               |         |
+|       배포       |                        [Vercel](https://vercel.com/)                        |         |
