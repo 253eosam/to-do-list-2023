@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import SignInBox from "../components/SignUp/SignUpBox.vue"
+import SignUpHeader from "../components/SignUp/SignUpHeader.vue"
+import SignUpForm from "../components/SignUp/SignUpForm.vue"
 </script>
 
 <template>
-  <SignInBox></SignInBox>
+  <div class="p-5">
+    <SignUpHeader/>
+    <SignUpForm/>
+  </div>
 </template>
 
 <style>
