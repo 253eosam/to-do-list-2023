@@ -44,5 +44,6 @@ $ pnpm run dev
 |    Framework     |                                   Vue.js                                    |    3    |
 |   UI Framework   | [Flowbite](https://flowbite.com/) ([Tailwindcss](https://tailwindcss.com/)) |         |
 | State management |                      [Pinia](https://pinia.vuejs.org/)                      |         |
+|      router      |                [Vue Router](https://router.vuejs.org/)                |         |
 |  앱 개발 플랫폼  |               [Firebase](https://firebase.google.com/?hl=ko/)               |         |
 |       배포       |                        [Vercel](https://vercel.com/)                        |         |

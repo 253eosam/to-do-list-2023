@@ -17,6 +17,7 @@ specifiers:
   typescript: ^5.0.2
   vite: ^4.4.5
   vue: ^3.3.4
+  vue-router: ^4.2.4
   vue-tsc: ^1.8.5
 
 dependencies:
@@ -25,6 +26,7 @@ dependencies:
   flowbite-vue: 0.0.17-next.2_oxp5scexwaikhhsf4x47kudwiq
   pinia: 2.1.6_typescript@5.2.2+vue@3.3.4
   vue: 3.3.4
+  vue-router: 4.2.4_vue@3.3.4
 
 devDependencies:
   '@types/node': 20.5.7
@@ -2612,6 +2614,15 @@ packages:
     peerDependencies:
       vue: ^3.0.0
     dependencies:
+      vue: 3.3.4
+    dev: false
+
+  /vue-router/4.2.4_vue@3.3.4:
+    resolution: {integrity: sha512-9PISkmaCO02OzPVOMq2w82ilty6+xJmQrarYZDkjZBfl4RvYAlt4PKnEX21oW4KTtWfa9OuO/b3qk1Od3AEdCQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
       vue: 3.3.4
     dev: false
 

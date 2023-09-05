@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import SignUpPage from "@/pages/SignUpPage.vue"
 import { ToastProvider } from "flowbite-vue"
 </script>
 
 <template>
   <div class="container">
   <toast-provider transition="slide-bottom">
-    <SignUpPage />
+    <router-view></router-view>
   </toast-provider>
   </div>
 </template>

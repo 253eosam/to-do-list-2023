@@ -3,9 +3,11 @@ import { Input, Button } from "flowbite-vue"
 import { computed, ref } from "vue"
 import useLoginAuth from "./useSignUpAuth"
 import { useToast } from "flowbite-vue"
+import { useRouter } from "vue-router"
 
 const { signUp } = useLoginAuth()
 const { add } = useToast()
+const { go } = useRouter()
 
 const email = ref("test01@gmail.com")
 const password = ref("")
@@ -30,11 +32,8 @@ const onClickSignIn = async () => {
 }
 
 const onClickTest = () => {
-  add({
-    text: "서비스 준비중입니다.",
-    time: 3000,
-    type: "warning",
-  })
+  // TODO: 다른 도메인에서의 접속시 홈으로 연결하는 기능 필요
+  go(-1)
 }
 </script>
 
