@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CheckItem from "@/components/Checklist/CheckItem.vue"
+import CheckItem from "@/components/CheckList/CheckItem.vue"
 </script>
 
 <template>
