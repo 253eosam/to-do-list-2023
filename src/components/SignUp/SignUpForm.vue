@@ -2,8 +2,10 @@
 import { Input, Button } from "flowbite-vue"
 import { computed, ref } from "vue"
 import useLoginAuth from "./useSignUpAuth"
+import { useToast } from "flowbite-vue"
 
 const { signUp } = useLoginAuth()
+const { add } = useToast()
 
 const email = ref("test01@gmail.com")
 const password = ref("")
@@ -18,21 +20,21 @@ const signUpValidations = computed(() => {
 })
 
 const onClickSignIn = async () => {
-  const result = await signUp(email.value, password.value)
-  console.log("[🚀 253eosam] |  file: SignUpForm.vue:22 |  onClickSignIn |  result:", result)
-  
+  const { isSuccess, code, message } = await signUp(email.value, password.value)
+  console.log("[🚀 253eosam] |  file: SignUpForm.vue:24 |  onClickSignIn |  { isSuccess, code, message }:", { isSuccess, code, message })
+  add({
+    text: message as string,
+    time: 3000,
+    type: isSuccess ? "success" : "danger",
+  })
 }
-
-import { useToast } from "flowbite-vue"
-
-const { add } = useToast()
 
 const onClickTest = () => {
   add({
-  text: "Hello",
-  time: 1000,
-  type: "danger",
-})
+    text: "서비스 준비중입니다.",
+    time: 3000,
+    type: "warning",
+  })
 }
 </script>
 
