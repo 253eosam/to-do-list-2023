@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { Input, Button } from "flowbite-vue"
 import { computed, ref } from "vue"
-import useLoginAuth from "./useSignUpAuth"
+import useUserAuth from "@/hooks/useUserAuth"
 import { useToast } from "flowbite-vue"
 import { useRouter } from "vue-router"
 
-const { signUp } = useLoginAuth()
+const { signUp } = useUserAuth()
 const { add } = useToast()
 const { go } = useRouter()
 
-const email = ref("test01@gmail.com")
+const email = ref("")
 const password = ref("")
 const validPassword = ref("")
 
@@ -56,3 +56,4 @@ const onClickTest = () => {
 </template>
 
 <style scoped></style>
+../../hooks/useSignUpAuth
